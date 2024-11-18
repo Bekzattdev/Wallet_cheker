@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.hero textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.hero .error {
+  color: red;
+  margin-top: 10px;
+}
+
+.hero .wallet-container {
+  margin-top: 20px;
+}
+
+.hero .wallet {
+  margin-bottom: 20px;
+}
+
+.hero .wallet h2 {
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.hero .jetton-list {
+  list-style: none;
+  padding: 0;
+}
+
+.hero .jetton-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.hero .jetton-item img {
+  width: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
